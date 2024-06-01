@@ -86,8 +86,8 @@ Vagrant.configure("2") do |config|
     echo -e "192.168.56.10\tubuntu-bionic\tubuntu-bionic" >> /etc/hosts
     echo -e "192.168.56.10\tgitlab.localdomain\tgitlab" >> /etc/hosts
   SHELL
-end
+ end
   #   apt-get update
   #   apt-get install -y apache2
   # SHELL
-end
+ end
