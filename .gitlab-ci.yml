@@ -1,0 +1,24 @@
+image: ubuntu:22.04
+
+stages:
+  - build
+  - test
+  - deploy
+
+build:
+  stage: build
+  script:
+    - apt-get update
+    - apt-get install -y build-essential
+    - make
+
+test:
+  stage: test
+  script:
+    - make test
+
+deploy:
+  stage: deploy
+  script:
+    - mkdir public
+    - cp build/program public/
