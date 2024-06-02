@@ -23,3 +23,26 @@ https://github.com/Evgenii199130/DZ3/blob/main/4.png
 
 файл gitlab-ci.yml для своего проекта или вставьте код в соответствующее поле в шаблоне;
 скриншоты с успешно собранными сборками.
+
+Ответ:
+
+https://github.com/Evgenii199130/DZ3/commit/2cfb5a0edee3a00c8740ddbc74b26497066d2397
+
+Код:
+image: ubuntu:22.04
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - apt-get update
+    - apt-get install -y build-essential
+    - make
+
+test:
+  stage: test
+  script:
+    - make test
