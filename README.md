@@ -8,3 +8,7 @@
 #В качестве ответа в репозиторий шаблона с решением добавьте скриншоты с настройками раннера в проекте.
 
 #Ответ:
+https://github.com/Evgenii199130/DZ3/blob/main/1.png
+https://github.com/Evgenii199130/DZ3/blob/main/2.png
+https://github.com/Evgenii199130/DZ3/blob/main/3.png
+https://github.com/Evgenii199130/DZ3/blob/main/4.png
