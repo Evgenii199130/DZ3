@@ -12,3 +12,14 @@ https://github.com/Evgenii199130/DZ3/blob/main/1.png
 https://github.com/Evgenii199130/DZ3/blob/main/2.png
 https://github.com/Evgenii199130/DZ3/blob/main/3.png
 https://github.com/Evgenii199130/DZ3/blob/main/4.png
+
+
+Задание 2
+Что нужно сделать:
+
+Запушьте репозиторий на GitLab, изменив origin. Это изучалось на занятии по Git.
+Создайте .gitlab-ci.yml, описав в нём все необходимые, на ваш взгляд, этапы.
+В качестве ответа в шаблон с решением добавьте:
+
+файл gitlab-ci.yml для своего проекта или вставьте код в соответствующее поле в шаблоне;
+скриншоты с успешно собранными сборками.
